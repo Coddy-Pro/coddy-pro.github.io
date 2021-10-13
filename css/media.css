@@ -1,4 +1,3 @@
-
 @media only screen and (max-width: 480px) {
     main {
         width: 90%;
@@ -12,4 +11,18 @@
         padding: 10px;
         margin: 10px;
     }
+}
+
+@media only screen and (min-width: 1400px) {
+    main {
+        width: 65%;
+    }
+    h1 {
+        font-size: 500%;
+    }
+    div.img {
+        width: calc(30% - 20px);
+        height: calc((20vw - 20px) / 16 * 9);
+    }
+    
 }
